@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<script src="script.js" defer></script>
+	<title>Frontend Mentor | [Blogr]</title>
+</head>
+<body>
+	<header>
+		<div class="header-background-image">
+			<div class="nav-bar">
+				<div id="company-title" >Blogr</div>
+				<div class="begin-nav-bar">
+					<div class="nav-bar-links"><a href="#" onclick="show()">Product <img class="down-arrow product"src="images/icon-arrow-light.svg" alt="down-icon"><img class="up-arrow product" src="images/icon-arrow-light.svg" alt="uparrow"> </a>
+						<div class="sub-nav-bar product">
+							<a class="sub-nav-bar-link" href="#">Overview</a>
+							<a class="sub-nav-bar-link" href="#">Pricing</a>
+							<a class="sub-nav-bar-link" href="#">Marketplace</a>
+							<a class="sub-nav-bar-link" href="#">Features</a>
+							<a class="sub-nav-bar-link" href="#">Integrations</a>
+						</div>
+					</div>
+					<div class="nav-bar-links"><a href="#" onclick="show1()">Company <img class="down-arrow company" src="images/icon-arrow-light.svg" alt="down-icon"><img class="up-arrow company" src="images/icon-arrow-light.svg" alt="uparrow">  </a>
+						<div class="sub-nav-bar company">
+							<a class="sub-nav-bar-link" href="#">About</a>
+							<a class="sub-nav-bar-link" href="#">Teams</a>
+							<a class="sub-nav-bar-link" href="#">Blogs</a>
+							<a class="sub-nav-bar-link" href="#">Carrers</a>
+						</div>
+					</div>
+					<div class="nav-bar-links"><a href="#" onclick="show2()">Connect <img class="down-arrow connect"src="images/icon-arrow-light.svg" alt="down-icon"><img class="up-arrow connect" src="images/icon-arrow-light.svg" alt="uparrow"></a>
+						<div class="sub-nav-bar connect">
+							<a class="sub-nav-bar-link" href="#">Contact</a>
+							<a class="sub-nav-bar-link" href="#">Newsletter</a>
+							<a class="sub-nav-bar-link" href="#">LinkedIn</a>
+						</div>
+					</div>
+				</div>
+				<div class="end-nav-bar">
+					<div class="nav-bar-links"><a href="#">Login</a></div>
+					<div class="nav-bar-links special"><a href="#">Sign Up</a></div>
+				</div>
+				<div class="small-nav-bar">
+					<div class="menu-button">
+					<img onclick="view()" class="open" src="images/icon-hamburger.svg" alt="menu">
+					<img onclick="view()" class="close"src="images/icon-close.svg" alt="close">
+					</div>
+					<div class="begin-nav-bar">
+						<div class="nav-bar-links"><a href="#" onclick="show()">Product <img class="off product"src="images/icon-arrow-dark.svg" alt="down-icon"><img class="on product" src="images/icon-arrow-dark.svg" alt="uparrow"> </a>
+							<div class="sub-nav-bar product">
+								<a class="sub-nav-bar-link" href="#">Overview</a>
+								<a class="sub-nav-bar-link" href="#">Pricing</a>
+								<a class="sub-nav-bar-link" href="#">Marketplace</a>
+								<a class="sub-nav-bar-link" href="#">Features</a>
+								<a class="sub-nav-bar-link" href="#">Integrations</a>
+							</div>
+						</div>
+						<div class="nav-bar-links"><a href="#" onclick="show1()">Company <img class="off company" src="images/icon-arrow-dark.svg" alt="down-icon"><img class="on company" src="images/icon-arrow-dark.svg" alt="uparrow">  </a>
+							<div class="sub-nav-bar company">
+								<a class="sub-nav-bar-link" href="#">About</a>
+								<a class="sub-nav-bar-link" href="#">Teams</a>
+								<a class="sub-nav-bar-link" href="#">Blogs</a>
+								<a class="sub-nav-bar-link" href="#">Carrers</a>
+							</div>
+						</div>
+						<div class="nav-bar-links"><a href="#" onclick="show2()">Connect <img class="off connect"src="images/icon-arrow-dark.svg" alt="down-icon"><img class="on connect" src="images/icon-arrow-dark.svg" alt="uparrow"></a>
+							<div class="sub-nav-bar connect">
+								<a class="sub-nav-bar-link" href="#">Contact</a>
+								<a class="sub-nav-bar-link" href="#">Newsletter</a>
+								<a class="sub-nav-bar-link" href="#">LinkedIn</a>
+							</div>
+						</div>
+						<hr>
+						<div class="nav-bar-links normal"><a href="#">Login</a></div>
+						<div class="nav-bar-links special"><a href="#">Sign Up</a></div>
+					</div>
+					
+				<!--	<div class="end-nav-bar"></div> -->
+				</div>
+			</div>
+			<div class="header-text">
+				<div class="heading">A modern publishing platform</div>
+				<div class="heading-sub-line">Grow your audience and build your online brand</div>
+				<div class="heading-button">
+					<div class="button sign-up"><a href="#">Start for free</a></div>
+					<div class="button learn-more"><a href="#">Learn More</a></div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="container-title">Designed for the future</div>
+	<div class="card-container">
+		<div class="text-container">
+			<div class="text-sub-heading">Introducing an extensible editor</div>
+			<div class="text-details">Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+				The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+				videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+				change the looks of a blog.
+			</div>
+			<div class="text-sub-heading">Robust content management</div>
+			<div class="text-details">Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+				by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+			  </div>
+		</div>
+		<div class="image-container"></div>
+	</div>
+	<div class="special-container">
+		<div class="image-area">
+			<img src="images/illustration-phones.svg" alt="phone" />
+		</div>
+		<div class="text-area">
+			<div class="text-area-heading">State of the Art Infrastructure</div>
+			<div class="text-area-details">With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+				This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+			</div>
+		</div>
+	</div>
+	<div class="card-container laptop">
+		<div class="image-container"></div>
+		<div class="text-container">
+			<div class="text-sub-heading">Free, open, simple</div>
+			<div class="text-details">Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+				features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+				and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+			</div>
+			<div class="text-sub-heading">  Powerful tooling</div>
+			<div class="text-details">Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+				capable of producing even the most complicated sites.
+			  </div>
+
+		</div>	
+	</div>
+	<footer>
+		<div class="begin-nav-bar">
+			<div id="company-title-1" >Blogr</div>
+			<div class="nav-bar-links"><a href="#">Product</a>
+				<div class="sub-nav-bar product">
+					<a class="sub-nav-bar-link" href="#">Overview</a>
+					<a class="sub-nav-bar-link" href="#">Pricing</a>
+					<a class="sub-nav-bar-link" href="#">Marketplace</a>
+					<a class="sub-nav-bar-link" href="#">Features</a>
+					<a class="sub-nav-bar-link" href="#">Integrations</a>
+				</div>
+			</div>
+			<div class="nav-bar-links"><a href="#" >Company</a>
+				<div class="sub-nav-bar company">
+					<a class="sub-nav-bar-link" href="#">About</a>
+					<a class="sub-nav-bar-link" href="#">Teams</a>
+					<a class="sub-nav-bar-link" href="#">Blogs</a>
+					<a class="sub-nav-bar-link" href="#">Carrers</a>
+				</div>
+			</div>
+			<div class="nav-bar-links"><a href="#" >Connect</a>
+				<div class="sub-nav-bar connect">
+					<a class="sub-nav-bar-link" href="#">Contact</a>
+					<a class="sub-nav-bar-link" href="#">Newsletter</a>
+					<a class="sub-nav-bar-link" href="#">LinkedIn</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Jaya Durga V</a>.
+  </div>
+</body>
+</html>
