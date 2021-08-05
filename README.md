@@ -24,8 +24,6 @@ Users should be able to:
 ### Screenshot
 Desktop design:
 ![desktop-design](https://user-images.githubusercontent.com/48177682/128319569-18b6d666-394d-4895-a3c4-0b659451901a.jpg)
-Mobile design:
-![mobile-design](https://user-images.githubusercontent.com/48177682/128319618-f790b1c0-7302-492f-8c49-8a2f274c195b.jpg)
 
 ### Links
 
