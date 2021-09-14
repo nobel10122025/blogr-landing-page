@@ -23,7 +23,8 @@ Users should be able to:
 
 ### Screenshot
 Desktop design:
-![desktop-design](https://user-images.githubusercontent.com/48177682/128319569-18b6d666-394d-4895-a3c4-0b659451901a.jpg)
+![desktop-preview](https://user-images.githubusercontent.com/48177682/133260326-afce266f-f78a-4dac-bbdb-30f624bf1394.jpg)
+
 
 ### Links
 
